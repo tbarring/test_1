@@ -1,0 +1,31 @@
+/*Rootnkontrollerar värden some jac kan använda liks i figma.*/
+:root{
+    --color-aqua: #00596b;
+    --color-background: #f3f3f3;
+    --color-aqua: #00596b;
+    --color-text:#000 ;
+
+    --font-heading: "Open Sans", sans-serif;
+    --font-body: "Open Sans", sans-serif;
+
+    --max-width:1040;
+    --spaceing: 20px;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+/* header och menu */
+
+/* typography */
+h1 {
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.15;
+}
+
+section {
+    padding: 0 auto;
+}
